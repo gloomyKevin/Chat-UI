@@ -3,6 +3,7 @@ import Button from './Button.jsx'
 import './App.css';
 import useColorSwitch from './useColorSwitch.jsx';
 
+// use hook
 function App() {
   // const [color, setColor] = useState("#ff0000");
 
@@ -17,9 +18,9 @@ function App() {
   }
   return (
     <div>
-      <Button label="按钮" onClick={handleClick1}><span>&gt;</span></Button>
+      {/* <Button label="按钮" onClick={handleClick1}><span>&gt;</span></Button>
       <p style={{ color }}>这是一段文本</p>
-      <Button label="点我" onClick={handleClick2} />
+      <Button label="点我" onClick={handleClick2} /> */}
     </div>
   );
 }
