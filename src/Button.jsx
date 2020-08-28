@@ -1,10 +1,13 @@
-import React, { Component } from "react"
+import React from "react"
 
 function Button({ onClick, label, children }) {
 
     return (
-        <div onClick={onClick}>
-            <button>{label}</button>{children}
+        <div>
+            <div onClick={onClick}>
+                <button>{label}</button>{children}
+            </div>
+            {/* <button>{label}</button> */}
         </div>
     )
 }
