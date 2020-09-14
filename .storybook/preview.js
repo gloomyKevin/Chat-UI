@@ -8,6 +8,3 @@ addDecorator(storyFn => (
   <ThemeProvider theme={theme}>{storyFn()}</ThemeProvider>
 ))
 
-// export const parameters = {
-//   actions: { argTypesRegex: "^on[A-Z].*" },
-// }
