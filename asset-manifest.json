@@ -1,31 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.cc6f50a5.chunk.css",
-    "main.js": "./main.3873e8fe386b4ab69340.bundle.js",
-    "main.css.map": "./static/css/main.cc6f50a5.chunk.css.map",
-    "main.js.map": "./main.3873e8fe386b4ab69340.bundle.js.map",
-    "runtime~main.js": "./runtime~main.3873e8fe386b4ab69340.bundle.js",
-    "runtime~main.js.map": "./runtime~main.3873e8fe386b4ab69340.bundle.js.map",
-    "vendors~main.js": "./vendors~main.3873e8fe386b4ab69340.bundle.js",
-    "vendors~main.js.map": "./vendors~main.3873e8fe386b4ab69340.bundle.js.map",
-    "iframe.html": "./iframe.html",
-    "precache-manifest.60ab966a8ed33516c2823a28a0cc7e54.js": "./precache-manifest.60ab966a8ed33516c2823a28a0cc7e54.js",
-    "service-worker.js": "./service-worker.js",
-    "static/media/code-brackets.svg": "./static/media/code-brackets.d43eb968.svg",
-    "static/media/colors.svg": "./static/media/colors.8104e6f5.svg",
-    "static/media/comments.svg": "./static/media/comments.3f9a1398.svg",
-    "static/media/direction.svg": "./static/media/direction.d3dc567b.svg",
-    "static/media/flow.svg": "./static/media/flow.e3812c4f.svg",
-    "static/media/plugin.svg": "./static/media/plugin.5ba97e9b.svg",
-    "static/media/repo.svg": "./static/media/repo.3452b916.svg",
-    "static/media/smile.3154514f.svg": "./static/media/smile.3154514f.svg",
-    "static/media/stackalt.svg": "./static/media/stackalt.66f4b748.svg",
-    "vendors~main.3873e8fe386b4ab69340.bundle.js.LICENSE.txt": "./vendors~main.3873e8fe386b4ab69340.bundle.js.LICENSE.txt"
+    "main.css": "/Chat-UI/static/css/main.bb2cc725.chunk.css",
+    "main.js": "/Chat-UI/static/js/main.3458ccb3.chunk.js",
+    "main.js.map": "/Chat-UI/static/js/main.3458ccb3.chunk.js.map",
+    "runtime-main.js": "/Chat-UI/static/js/runtime-main.d01f6043.js",
+    "runtime-main.js.map": "/Chat-UI/static/js/runtime-main.d01f6043.js.map",
+    "static/js/2.128aff2b.chunk.js": "/Chat-UI/static/js/2.128aff2b.chunk.js",
+    "static/js/2.128aff2b.chunk.js.map": "/Chat-UI/static/js/2.128aff2b.chunk.js.map",
+    "index.html": "/Chat-UI/index.html",
+    "precache-manifest.32ea718253c61859a1ad5c071a03d635.js": "/Chat-UI/precache-manifest.32ea718253c61859a1ad5c071a03d635.js",
+    "service-worker.js": "/Chat-UI/service-worker.js",
+    "static/css/main.bb2cc725.chunk.css.map": "/Chat-UI/static/css/main.bb2cc725.chunk.css.map",
+    "static/js/2.128aff2b.chunk.js.LICENSE.txt": "/Chat-UI/static/js/2.128aff2b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.3873e8fe386b4ab69340.bundle.js",
-    "vendors~main.3873e8fe386b4ab69340.bundle.js",
-    "static/css/main.cc6f50a5.chunk.css",
-    "main.3873e8fe386b4ab69340.bundle.js"
+    "static/js/runtime-main.d01f6043.js",
+    "static/js/2.128aff2b.chunk.js",
+    "static/css/main.bb2cc725.chunk.css",
+    "static/js/main.3458ccb3.chunk.js"
   ]
 }
