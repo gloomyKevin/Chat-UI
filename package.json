@@ -28,6 +28,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "storybook-deployer": {
+    "gitUsername": "chat-ui",
+    "gitEmail": "1293535916@qq.com",
+    "commitMessage": "docs: deploy docs"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
