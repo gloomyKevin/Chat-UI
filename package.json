@@ -26,7 +26,8 @@
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "chromatic": "npx chromatic --project-token q5p23l8wm6n"
   },
   "storybook-deployer": {
     "gitUsername": "chat-ui",
@@ -58,6 +59,7 @@
     "@storybook/react": "^6.0.21",
     "@storybook/storybook-deployer": "^2.8.6",
     "babel-loader": "^8.1.0",
+    "chromatic": "^5.2.0",
     "gh-pages": "^3.1.0",
     "react-is": "^16.13.1"
   }
