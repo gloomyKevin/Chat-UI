@@ -6,3 +6,4 @@ cache:
   - node_modules
 env:
     - CI=true
+    
