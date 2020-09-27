@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { circle } from '../../utils/mixin.js';
+import { circle } from "utils/mixins";
 
 const circleMixinFunc = (color, size = "8px") => css`
   content: "";
@@ -25,12 +25,12 @@ const StatusIcon = styled.div`
 
   &::after {
     ${({ theme, status, size }) => {
-    if (status === "online") {
-      return circleMixinFunc(theme.green, size);
-    } else if (status === "offline") {
-      return circleMixinFunc(theme.gray, size);
-    }
-  }}
+      if (status === "online") {
+        return circleMixinFunc(theme.green, size);
+      } else if (status === "offline") {
+        return circleMixinFunc(theme.gray, size);
+      }
+    }}
   }
 `;
 
