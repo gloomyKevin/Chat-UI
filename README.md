@@ -1,68 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [x] :dart: storybook构建
+- [x] :dart: 基础组件
+- [x] :dart: 通讯组件
+- [x] :dart: 视频组件
+- [x] :dart: 重构Hooks
+- [x] :trophy: 完善动画
+- [x] :dart: 完善路由
+- [x] :dart: 添加模拟数据
+- [ ] :trophy: 部署Travis CI
 
-## Available Scripts
+[English](./README.EN.md) | 简体中文
 
-In the project directory, you can run:
+<p align="center"><img width="500" src="https://ae01.alicdn.com/kf/Ud525d91fae7b4e16894af6c20dba87abK.jpg"></p>
 
-### `yarn start`
+<!-- <p align="center">
+  <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg" alt="Build Status"></a>
+  <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
+</p> -->
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 align="center"> Chat-UI —— React组件库 </h2>
+<p align="center"><b> 一套基于React Hooks的组件库,实现了45个为移动端而生的常用组件 </b></p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[→ 预览地址](https://react-chat-ui.netlify.app/)
 
-### `yarn test`
+# 开发笔记
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [生态](#生态)
+- [必须收藏的资源](#必须收藏的资源)
+- [快速入门](#快速入门)
+  - [安装](#安装)
+  - [用法](#用法)
+- [贡献者们](#贡献者们)
+- [维护者](#维护者)
+- [感谢](#感谢)
+- [License](#license)
 
-### `yarn build`
+### 特性
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 换用`styled-components`管理样式组件, 具有良好的扩展性 同时实践了 `CSS-IN-JS` 的开发理念
+- 将 `hygen` 作为模板引擎, 减少重复代码工作。开发过程中有思考地重构, 致力提高可复用性, 让代码量减少了三分之一
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 参考资料
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [storybook文档](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/)
+- [React文档](https://reactjs.org/docs/getting-started.html)
+- [dribbble设计稿](https://dribbble.com/shots/5262706-Daily-UI-13-Direct-Messaging)
 
-### `yarn eject`
+## 快速入门
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 安装
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+$ cd chat-ui              # please ignore this command if you executed 'omi init' in an empty folder
+$ npm install             # install modules
+$ yarn run storybook      # start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+目录说明:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+├─ _templates
+├─ .storybook
+├─ public
+├─ src
+│  ├─ assets        //静态资源
+│  ├─ components    //组件目录
+│  ├─ data          //存放模拟数据
+│  ├─ hooks         //存放抽取出的React Hooks
+│  └─ stories       //storybook入口文件
+```
 
-## Learn More
+## 贡献者们
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <a target="_blank" href="https://github.com/gloomyKevin"><img width="60px" src="https://avatars1.githubusercontent.com/u/47132374?s=460&u=a4cddb370a56c1c4253607dcf5ba96b524c6a989&v=4"></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 维护者
 
-### Code Splitting
+- [gloomyKevin](https://github.com/gloomyKevin)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [MIT](https://opensource.org/licenses/MIT)
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
